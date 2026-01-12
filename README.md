@@ -1,10 +1,16 @@
 Steps 📋
 
-1. Open the folder "tp" 📂
-2. Inside that folder, open the file "tp_open.bat" 🖱️
-3. In the window that opens, type: ./tp ⌨️
-   ⚠️ Do not forget to add "./" before tp
-4. A new Notepad will open automatically 📝
-5. Place the typing cursor in the new Notepad window and start typing ✍️
+1. Open PowerShell and run the following command to allow scripts to run:
+   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned ⌨️
+
+⚠️ Note: Don’t worry if you see some red lines or words—they are normal and will not break your PC.  
+
+2. Open the folder "tp" 📂
+3. Inside that folder, open the file "tp_open.bat" 🖱️
+4. In the window that opens, type: ./tp ⌨️
+   ⚠️ Important: Do not forget to add "./" before tp
+5. A new Notepad will open automatically 📝
+6. Place the typing cursor in the new Notepad window and start typing ✍️
+
 
 #StayAwake is a simple and efficient session-preservation tool that prevents premature idle states during temporary inactivity. After a defined idle delay, it runs a short countdown-based presence check before deciding whether the session should remain active or switch to idle. This approach strikes a balance between convenience and honesty, avoiding false activity while protecting legitimate work sessions from unintended interruptions.
